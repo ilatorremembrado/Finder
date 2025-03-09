@@ -64,7 +64,7 @@ button:hover {
       max-width: 70%;
       word-wrap: break-word;
     }
-    //esto no me ha funcionado pero lo dejo :)
+    /* esto no me ha funcionado pero lo dejo :) */
     /* Mensajes del usuario actual (alineados a la derecha) */
     .message.current {
       background-color: #dcf8c6; /* Verde claro */
