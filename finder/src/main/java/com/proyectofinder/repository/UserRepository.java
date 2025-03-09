@@ -12,7 +12,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     Optional<User> findByEmail(String email);
 
-    // Devuelve los usuarios cuyo email sea distinto del actual y que no hayan sido evaluados (like o dislike)
+    // Devuelve los usuarios cuyo email sea distinto del actual y que no hayan sido evaluados (like o dislike) y que no nos hayan dado dislike a nosotros
     @Query("SELECT u FROM User u " +
             "WHERE u.email <> :currentEmail " +
             "AND u NOT IN (" +
