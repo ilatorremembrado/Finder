@@ -26,7 +26,7 @@ public class SecurityConfig {
                                 "/css/**",
                                 "/js/**",
                                 "/uploads/**",    // Para servir imágenes subidas
-                                "/profiles.html"  // Se puede permitir para pruebas (o protegerla según tus necesidades)
+                                "/profiles.html"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
