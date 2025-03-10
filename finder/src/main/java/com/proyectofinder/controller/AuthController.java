@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Controlador para manejar el registro e inicio de sesión de usuarios.
+ * (no se usa pero he dejado la clase para futuras modificaciones)
  */
 @RestController
 @RequestMapping("/auth")
